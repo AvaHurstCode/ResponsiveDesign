@@ -1,0 +1,10 @@
+:root {
+    --h: 120;
+    --s: 40;
+    --l: 40;
+    --sep: 60;
+    --primary: hsl(var(--h),var(--s),var(--l));
+    --accent: hsl(calc(var(--sep)+var(--h)), calc(var(--sep)+var(--s)), calc(var(--sep)+var(--l)));
+    --text-primary: hsl(0, 0, 0);
+    --text-accent: var(--accent);
+}
