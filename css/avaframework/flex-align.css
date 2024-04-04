@@ -1,0 +1,20 @@
+.af-flex{
+    display: flex;
+}
+
+.af-flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.af-justify-center{
+    justify-content: center;
+}
+
+.af-align-i-center{
+    align-items: center;
+}
+
+.af-align-c-center{
+    align-content: center;
+}
