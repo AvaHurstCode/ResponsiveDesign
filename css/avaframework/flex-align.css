@@ -11,6 +11,10 @@
     justify-content: center;
 }
 
+.af-justify-space-between {
+    justify-content: space-between;
+}
+
 .af-align-i-center{
     align-items: center;
 }
