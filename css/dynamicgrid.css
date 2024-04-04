@@ -13,5 +13,10 @@
 }
 
 nav {
-    grid-area: nav;
+    grid-area: nav
+}
+
+.nav-seperator {
+    grid-column: margin-left-start / margin-right-end;
+    grid-row: 1;
 }

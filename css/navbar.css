@@ -1,0 +1,19 @@
+nav {
+    ul {
+        gap: 2rem;
+        height: 100%;
+        li {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            a {
+                display: flex;
+                align-items: center;
+                height: 100%;
+            }
+        }
+    }
+}
+.nav-seperator {
+    
+}
