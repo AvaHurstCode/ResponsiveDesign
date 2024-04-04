@@ -1,9 +1,18 @@
-.af-button-cta {
-
+.af-button-basic, .af-button-cta {
+    .button-container {
+        border: 0.25rem solid var(--primary);
+        border-radius: 0.5rem;
+        .button-text {
+            color: var(--text-primary)
+        }
+    }
 }
 
-.af-button-basic {
-    .button-container {
-        
+.af-button-cta {
+    .button-container{
+        border: 0.25rem solid var(--accent);
+        .button-text {
+            color: var(--text-light);
+        }
     }
 }

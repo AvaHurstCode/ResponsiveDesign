@@ -1,0 +1,17 @@
+.primary-grid {
+    display: grid;
+    grid-template-columns: [margin-left-start] 10% [margin-left-end] auto [margin-right-start] 10% [margin-right-end];
+    grid-template-rows: 4rem auto 4rem;
+    grid-template-areas: 
+        "left-margin nav right-margin"
+        "left-margin main right-margin"
+        "left-margin footer right-margin";
+}
+
+.grid-main {
+    grid-area: main;
+}
+
+nav {
+    grid-area: nav;
+}
