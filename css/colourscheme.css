@@ -3,7 +3,8 @@
     --s: 40%;
     --l: 60%;
     --sep: 120;
-    --primary: hsl(var(--h),var(--s),var(--l));
+    --primary-60: hsl(var(--h),var(--s),var(--l));
+    --primary-30: hsl(var(--h),var(--s),calc(var(--l) * 0.5));
     --accent: hsl(calc(var(--h) - var(--sep)), var(--s), var(--l));
     --text-primary: hsl(0, 0, 0);
     --text-accent: var(--accent);

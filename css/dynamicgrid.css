@@ -13,10 +13,23 @@
 }
 
 nav {
-    grid-area: nav
+    display: grid;
+    grid-template-columns: subgrid;
+    grid-template-rows: subgrid;
+    grid-column: margin-left-start / margin-right-end;
+}
+
+.nav-inner {
+    grid-column: margin-left-end / margin-right-start;
 }
 
 .nav-seperator {
     grid-column: margin-left-start / margin-right-end;
     grid-row: 1;
+}
+
+@media (width <= 500px) {
+    .primary-grid {
+        grid-template-rows: auto auto 4rem;
+    }
 }
