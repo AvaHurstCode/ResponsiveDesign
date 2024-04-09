@@ -1,18 +1,3 @@
 .bg {
     background-color: var(--primary-60);
 }
-
-#landscape {
-    .back-1,.back-2,.back-3,.back-4,.back-5,.back-6 {
-        animation: parallax 
-    }
-}
-
-@keyframes parallax {
-    from {
-        transform: 0 10rem;
-    }
-    to {
-        transform: 0 0;
-    }
-}

@@ -1,0 +1,38 @@
+.parallax-container {
+    height: 100svh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+    perspective-origin: top;
+}
+
+header {
+    position: relative;
+    transform-style: preserve-3d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.parallax {
+    &.title {
+        transform: translateZ(-6px) translateY(15rem) scale(1.6);
+    }
+    &.item-1 {
+        transform: translateZ(-10px) translateY(30.5rem) scale(2);
+    }
+    &.item-2 {
+        transform: translateZ(-8px) translateY(25.25rem) scale(1.8);
+    }
+    &.item-3 {
+        transform: translateZ(-6px) translateY(19.625rem) scale(1.6);
+    }
+    &.item-4 {
+        transform: translateZ(-4px) translateY(13.5rem) scale(1.4);
+    }
+    &.item-5 {
+        transform: translateZ(-2px) translateY(7rem) scale(1.2);
+    }
+}
